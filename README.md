@@ -17,6 +17,6 @@ Now you just have to use it like a react component:
 
 ```
 <ModalComponent>
-    <CreateEmployee onClick={handleClick} setModalOpen={setModalOpen} isModalOpen={isModalOpen}  />
+    'Enter the code you want in your modal here'
 </ModalComponent>
 ```
