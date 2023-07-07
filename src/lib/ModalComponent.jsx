@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function ModalComponent({children}) {
     const style = {
         position: 'absolute',

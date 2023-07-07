@@ -1,7 +1,17 @@
 {
   "name": "react-component-modal-eric-leroux",
-  "version": "0.1.0",
-  "private": true,
+  "keywords": ["react", "components", "ui"],
+  "description": "Simple react modal",
+  "main": "dist/ModalComponent.js",
+  "module": "dist/ModalComponent.js",
+  "files": [ "dist", "README.md" ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ricou107/react-component-modal-eric-leroux/"
+},
+  "author": "Ricou107",
+  "version": "0.5.0",
+  "private": false,
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "@testing-library/jest-dom": "^5.16.5",
@@ -14,7 +24,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
