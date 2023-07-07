@@ -11,7 +11,7 @@ function ModalComponent(_ref) {
     children
   } = _ref;
   const style = {
-    position: 'absolute',
+    position: 'fixed',
     zIndex: '2',
     backgroundColor: 'grey',
     width: '80%',

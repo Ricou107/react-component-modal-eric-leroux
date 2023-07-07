@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function ModalComponent({children}) {
     const style = {
-        position: 'absolute',
+        position: 'fixed',
         zIndex: '2',
         backgroundColor: 'grey',
         width: '80%',
