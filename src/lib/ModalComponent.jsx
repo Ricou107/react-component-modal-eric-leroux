@@ -4,7 +4,7 @@ export default function ModalComponent({children}) {
     const style = {
         position: 'fixed',
         zIndex: '2',
-        backgroundColor: 'grey',
+        backgroundColor: '#949f00',
         width: '80%',
         margin: '0 calc(100% - 90%)',
         top: '15%',
